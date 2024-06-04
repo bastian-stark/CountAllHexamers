@@ -40,7 +40,7 @@ def countHexamers(currentChrom, sequenceCounts, m):
 filename = input('Enter file name: ')
 m = int(input('Enter -mer size (ex: a hexamer would be 6): '))
 
-infile = open(f"{filename}.txt")
+infile = open(f"{filename}.fa")
 outfile = open(f"{filename}_{m}mer_counts.txt", "w")
 currentChromName = ''
 currentChrom = ''
